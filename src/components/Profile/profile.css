@@ -1,0 +1,60 @@
+.profile-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.profile-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  background-color: white;
+}
+
+.profile-info {
+  margin-top: 10px;
+}
+
+.profile-name {
+  font-size: 26px;
+  margin: 10px 0;
+}
+
+.profile-tag {
+  color: grey;
+  font-size: 18px;
+}
+
+.profile-location {
+  color: grey;
+  font-size: 20px;
+}
+
+.profile-stats {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8f8f8;
+  padding: 10px 0;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.stat {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-number {
+  font-size: 12px;
+  color: black;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: grey;
+}

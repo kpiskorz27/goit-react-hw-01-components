@@ -1,0 +1,31 @@
+thead th {
+  font-family: 'Rock Salt', cursive;
+}
+
+th {
+  letter-spacing: 2px;
+  background-color: gainsboro;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+  border-style: solid;
+  padding: 10px;
+  border-width: 1px;
+}
+
+.transaction-history {
+  width: 400px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: lavender;
+}
+
+tbody tr:nth-child(even) {
+  background-color: oldlace;
+}
